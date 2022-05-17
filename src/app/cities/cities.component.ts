@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { MapsService } from '../services/maps.service';
+import { MapsService } from '../../services/maps.service';
 declare var google: any;
 
 @Component({

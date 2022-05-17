@@ -5,8 +5,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AppHttpService } from './services/app-http.service';
-import { MapsService } from './services/maps.service';
+import { AppHttpService } from '../services/app-http.service';
+import { MapsService } from '../services/maps.service';
 import { CitiesComponent } from './cities/cities.component';
 
 @NgModule({
